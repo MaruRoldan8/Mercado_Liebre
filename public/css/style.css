@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+body {
+    font-family: 'roboto';
+    font-size: 12px;;
+}
+
+.main-text {
+    font-size: 12px;
+}
+
+.visit-ofert {
+    font-size: 24px;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.discount {
+    font-size: 16px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.logo-main {
+    width: 150px;
+}
+
+.photo-product {
+    width: 200px;
+}
+
+.header-style {
+    background-color: #EAC926;
+}
+
+.burger-menu {
+    background-color: #1259c3;
+    color: white;
+    font-size: 2em;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.pie {
+    text-align: center;
+}
+
+.icon {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
