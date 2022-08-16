@@ -53,6 +53,7 @@ body {
 
 .description {
     font-size: 16px;
+    display: none;
 }
 
 .logo-main {
@@ -68,6 +69,10 @@ body {
     background-color: #EAC926;
 }
 
+.comp {
+    text-align: center;
+}
+
 .burger-menu {
     background-color: #1259c3;
     color: white;
@@ -77,6 +82,11 @@ body {
     margin: auto;
     text-align: center;
     border-radius: 5px;
+}
+
+.main-banner {
+    width: 100%;
+    display: block;
 }
 
 .pie {
@@ -89,24 +99,23 @@ body {
     margin-bottom: 10px;
 }
 
-@media (min-width: 361px) {
-    h4 {
-        display: none;
-    };
-    nav {
-        display: none;
-    };
-
+.nav-bar {
+    display: none;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 361px) {
+    .description {
+        display: block;
+    }
+    .nav-bar {
+        display: block;
+    }
     article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    };
-    h4 {
-        display: inline;
-    };
-    nav {
-        display: inline;
-    };
+    }
+    .burger-menu {
+        display: none;
+    }
 }
+
+@media (min-width: 769px) {}
