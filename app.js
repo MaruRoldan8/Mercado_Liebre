@@ -4,7 +4,7 @@ const path = require("path");
 
 app.use(express.static("public"));
 
-app.listen(3000, () => console.log("Server running in 3000 port"));
+app.listen(process.env.PORT || 3000, () => console.log("Server running in 3000 port"));
 
 app.get("/", (req, res) => {
     res.sendFile(path.resolve(__dirname, "./views/home.html"));
